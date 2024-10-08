@@ -10,7 +10,7 @@ If the above condition fails now check if the  current char is 'D' and stk.top()
 
 IF the both the condtions are false that indicates either your stack is **empty** (or) **stk.top() != 'A' and stk.top() != 'C'**. So push the current char to the stk.
 
-By the end of the loop we get the stk after removing substrings**("AB" & "CD")** .So **return stk.size()** which is the required soluiton.
+By the end of the loop we get the stk after removing substrings **("AB" & "CD")** .So **return stk.size()** which is the required soluiton.
 
 **Time Complexity :**
 
